@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>회원가입 양식 만들기</title>
+        <meta charset="utf-8">
+        <style>
+            h3{
+                font-size:xx-large;
+                margin-left: 90px;
+                color:tomato;
+
+            }
+            hr{
+                border-style: dashed;
+            }
+
+            table{
+                margin:50px;
+                font-size:20px;
+                font-weight: 800;
+            }
+            .button{
+                background-color:orange;
+            }
+           
+
+        </style>
+    </head>
+    <body>
+        <h3>회원가입</h3>
+        <hr>
+        <form>
+            <table>
+                <tr>
+                    <td>ID : </td>
+                    <td><input type="text">
+                    <input type="Button" class="button" value="중복확인"></td>
+                </tr>
+                <tr>
+                    <td>비밀번호 : </td>
+                    <td><input type="text">
+                </tr>
+                <tr>
+                    <td>비밀번호 확인 : </td>
+                    <td><input type="text">
+                </tr>
+                <tr>
+                    <td>이름 : </td>
+                    <td><input type="text">
+                </tr>
+                <tr>
+                    <td>성별 : </td>
+                    <td> <input type="radio" class="male" name="gender" value="male">남자
+                        <input type="radio"  class="female" name="gender" value="female">여자
+                </tr>
+                <tr>
+                    <td>집전화 : </td>
+                    <td><input type="tel" pattern="[0-9]{3}-[0-9]{4}-{0-9]{4}">
+                </tr>
+                <tr>
+                    <td>휴대전화 : </td>
+                    <td><input type="tel" pattern="[0-9]{4}-[0-9]{4}-{0-9]{4}"> 
+                </tr>
+                <tr>
+                    <td>이메일 : </td>
+                    <td><input type="email"">
+                </tr>
+
+            </table>
+
+
+
+
+
+        </form> 
+
+
+
+    </body>
+ </html>
